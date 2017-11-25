@@ -189,8 +189,8 @@ public class Main
 
                     System.out.println("pasirinkite skaiciu");
                     select =in.nextInt();
-                    History save = new History(MeatObj.get(select));
-                    history_saved.add(save.saveMeat());
+                    History meat = new History(MeatObj.get(select));
+                    history_saved.add(meat.saveMeat());
 //
 //
 //                    Selectas ram = new Selectas(RamAtmintys.get(select));
@@ -210,8 +210,8 @@ public class Main
 
                     System.out.println("pasirinkite skaiciu");
                     select =in.nextInt();
-                    History save = new History(SauceObj.get(select));
-                    history_saved.add(save.saveSauce());
+                    History sauce = new History(SauceObj.get(select));
+                    history_saved.add(sauce.saveSauce());
 
 
 //                    Selectas diskai = new Selectas(KietiDiskai.get(select));
@@ -230,8 +230,8 @@ public class Main
 
                     System.out.println("pasirinkite skaiciu");
                     select =in.nextInt();
-                    History save = new History(SpiceObj.get(select));
-                    history_saved.add(save.saveSpice());
+                    History spice = new History(SpiceObj.get(select));
+                    history_saved.add(spice.saveSpice());
 
 
 //                    Selectas maitblokiai = new Selectas(MaitinioBlokai.get(select));
@@ -248,8 +248,8 @@ public class Main
 
                     System.out.println("pasirinkite skaiciu");
                     select =in.nextInt();
-                    History save = new History(VeggiesObj.get(select));
-                    history_saved.add(save.saveVeggies());
+                    History veggies = new History(VeggiesObj.get(select));
+                    history_saved.add(veggies.saveVeggies());
 
 
 //                    Selectas Korpus = new Selectas(Korpusai.get(select));
