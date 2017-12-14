@@ -134,11 +134,6 @@ public class Main
                     history_saved.add(crust.saveCrust_n_size());
 
 
-//                    Selectas selec = new Selectas(Motinines.get(select));
-//
-//                    pasirinkti.add(selec.RasytiMotinines());
-//
-//                    System.out.println(pasirinkti.get(0));
                     break;
 
                 case 2:
@@ -153,12 +148,6 @@ public class Main
                     history_saved.add(cheese.saveCheese());
 
 
-//                    Selectas proc = new Selectas(Procesoriai.get(select));
-//
-//                    pasirinkti.add(proc.RasytiProcesorius());
-//
-//                    System.out.println(pasirinkti.get(1));
-
 
                     break;
                 case 3:
@@ -172,11 +161,6 @@ public class Main
                     History save = new History(FruitsObj.get(select));
                     history_saved.add(save.saveFruits());
 
-//                    Selectas vaizd = new Selectas(VaizdoPlokstes.get(select));
-//
-//                    pasirinkti.add(vaizd.RasytiVaizd());
-//
-//                    System.out.println(pasirinkti.get(2));
 
                     break;
                 case 4:
@@ -191,13 +175,7 @@ public class Main
                     select =in.nextInt();
                     History meat = new History(MeatObj.get(select));
                     history_saved.add(meat.saveMeat());
-//
-//
-//                    Selectas ram = new Selectas(RamAtmintys.get(select));
-//
-//                    pasirinkti.add(ram.RasytiRam());
-//
-//                    System.out.println(pasirinkti.get(3));
+
 
                     break;
                 case 5:
@@ -214,12 +192,6 @@ public class Main
                     history_saved.add(sauce.saveSauce());
 
 
-//                    Selectas diskai = new Selectas(KietiDiskai.get(select));
-//
-//                    pasirinkti.add(diskai.RasytiDiskus());
-//
-//                    System.out.println(pasirinkti.get(4));
-
 
                     break;
                 case 6:
@@ -233,12 +205,6 @@ public class Main
                     History spice = new History(SpiceObj.get(select));
                     history_saved.add(spice.saveSpice());
 
-
-//                    Selectas maitblokiai = new Selectas(MaitinioBlokai.get(select));
-//
-//                    pasirinkti.add(maitblokiai.Rasytiblokus());
-//
-//                    System.out.println(pasirinkti.get(5));
                     break;
                 case 7:
                     System.out.println("7. Choose veggies");
@@ -251,23 +217,12 @@ public class Main
                     History veggies = new History(VeggiesObj.get(select));
                     history_saved.add(veggies.saveVeggies());
 
-
-//                    Selectas Korpus = new Selectas(Korpusai.get(select));
-//
-//                    pasirinkti.add(Korpus.RasytiKorpusus());
-//
-//                    System.out.println(pasirinkti.get(6));
-
                     break;
                 case 8:
                     System.out.println("8. Show my pizza.");
 
                     history_saved.forEach(System.out::println);
-//
-//                    System.out.println(" ");
-//
-//                    StopWatch.stop();
-//                    System.out.println("Praėjo laiko: "+ StopWatch.getTime()+ " Milisekundžių");
+
 
                     return;
 
